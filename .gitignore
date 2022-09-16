@@ -1,0 +1,6 @@
+*
+!docker-compose.yml
+!main.py
+!requirements.txt
+!readme.md
+!.gitignore
