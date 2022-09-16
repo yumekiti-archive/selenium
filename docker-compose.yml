@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  chrome:
+    image: selenium/standalone-chrome:3.141.59-20210105
+    container_name: chrome
+    ports:
+      - "4444:4444"
+    volumes:
+      - /dev/shm:/dev/shm
